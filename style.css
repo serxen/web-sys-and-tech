@@ -1,0 +1,22 @@
+body{
+    margin: 0; 
+    padding: 0;
+    background:#000;
+    overflow: hidden;
+
+}
+
+p{
+    margin: 0;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./moira.jpeg');
+    filter: grayscale(100%);
+    font-size: 12px;
+    text-align: justify;
+    -webkit-background-clip:text;
+    background-clip: text;
+    color: trasparent;
+    height: 100vh;
+}
